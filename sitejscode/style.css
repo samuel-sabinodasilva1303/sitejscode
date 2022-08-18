@@ -1,0 +1,34 @@
+
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: #282536;
+}
+header .container {
+	position: relative;
+}
+header .header-black {
+	background-color: #171424;
+	height: 40px;
+}
+header #logotipo {
+    height: 120px;
+    border-radius: 40px;
+	position: absolute;
+	top: 10px;
+}
+
+.container a{
+    width: 8em; 
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+}
+
+.container a:hover {
+
+    color: #ff1100;
+}
+

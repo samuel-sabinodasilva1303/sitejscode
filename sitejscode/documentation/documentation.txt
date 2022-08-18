@@ -1,0 +1,18 @@
+Projeto - Site JsCode
+O projeto tem como foco o aprendizado e criação de uma página web para a própria marca
+
+Foram utilizadas as seguintes línguagens de programação e frameworks:
+HTML
+CSS - Boostrap
+JavaScript - Jquery 
+
+
+Cabeçalho do site.
+
+As class container e row definem o tamanho e cores do cabeçalho e o ID logotipo define a imagem e 
+tamanho, essa aplicações foram feitas no CSS.
+
+Foi definida a cor hexadecimal #282536 para o header com largura de 100% e tamanho de 150px, o menu superios
+header-black teve o tamanho definido em 40px com a cor hexadecimal #171424, dividindo os menus e a imagem da 
+logo tem um tamanho de 120px com deslocamento de 10px do topo, com um border radius de 40 px para
+arredondar a imagem.

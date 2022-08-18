@@ -1,7 +1,0 @@
-Projeto - Site JsCode
-O projeto tem como foco o aprendizado e criação de uma página web para a própria marca
-
-Foram utilizadas as seguintes línguagens de programação e frameworks:
-HTML
-CSS - Boostrap
-JavaScript - Jquery
