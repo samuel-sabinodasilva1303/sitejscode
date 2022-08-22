@@ -7,7 +7,9 @@ CSS - Boostrap
 JavaScript - Jquery 
 
 
-Cabeçalho do site.
+**Cabeçalho do site.""
+
+A imagem da logo possui a dimensão de 120px, definida em heigth.
 
 As class container e row definem o tamanho e cores do cabeçalho e o ID logotipo define a imagem e 
 tamanho, essa aplicações foram feitas no CSS.
@@ -16,3 +18,19 @@ Foi definida a cor hexadecimal #282536 para o header com largura de 100% e taman
 header-black teve o tamanho definido em 40px com a cor hexadecimal #171424, dividindo os menus e a imagem da 
 logo tem um tamanho de 120px com deslocamento de 10px do topo, com um border radius de 40 px para
 arredondar a imagem.
+
+**Menu do site.**
+
+Criado uma um ID menu para que possa personalizar o input e as Li que foram criadas.
+Foi utilizado uma class para que conseguisse alterar a posição da esquerda para a direita dos elementos da UL,
+no CSS utiliei a font dancing do Google Fonts, para poder personalizar o estilo e também foram removidos os padrões
+da UL e LI, assim como dos links do elemento A.
+
+Foi utilizado o font awesome para geração do ícone de pequisa, assim a favicon, foi gerada a partir desse ícone, seguindo
+o padrão foi alterada as cores dos campos de pesquisa e busca, provenientes do Boostrap.
+
+**Noticias e produtos**
+
+Na página de noticias utilize o col-md-3 do Boostrap, porém, tive que aplicar um display block para imagens ficarem lado a lado
+também foi utilizado o novo recurso time do html 5, foi definido para as imagens da thumb o  width: 200px; height: 200px;
+assim deixou padronizado.

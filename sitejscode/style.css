@@ -1,34 +1,134 @@
-
+@font-face {
+    font-family: 'static';
+    src: url("../font/static/DancingScript-Regular.ttf");
+    
+}
 
 header {
 	width: 100%;
 	height: 150px;
 	background-color: #282536;
 }
-header .container {
-	position: relative;
-}
+
 header .header-black {
-	background-color: #171424;
+    padding: 0 15% 0 15%;
+    width: 100%;
 	height: 40px;
+    background-color: #171424;
+
 }
+
+.header-black h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.header-black {
+    display: block;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .header-black {
+      display: none;
+    }
+  }
+
 header #logotipo {
     height: 120px;
     border-radius: 40px;
 	position: absolute;
-	top: 10px;
+	top: 20px;
 }
 
-.container a{
-    width: 8em; 
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
+/*Menu */
+
+.menu-late {
+    margin: 30px;
+    display: inline-flex;
     float: right;
+    color: #fff;
+    gap: 30px;
+    list-style: none;
+    font-family: 'static';
+    font-size: 1.2em;
+
 }
 
-.container a:hover {
-
-    color: #ff1100;
+.menu-late li a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu-late li a:hover{
+    color: #1ef72c;
 }
 
+/*BTN Buscas*/
+.navbar .btn{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 80px;
+    height: 40px;
+}
+
+.navbar .btn:hover {
+   color: #1ef72c;
+   background-color: #022154;
+   border-radius: 9px;
+   height: 40px;
+   border: #022154;
+}
+
+.navbar .form{
+    border: #fff;
+    border-radius: 16px;
+    text-align: center;
+    width: 220px;
+    height: 40px;
+
+}
+.navbar .form:hover {
+    background-color: #fff;
+    border: #fff;
+}
+
+#menu li.btn-search ::-webkit-input-placeholder {
+    color: #000;
+}
+#menu li.btn-search:hover ::-webkit-input-placeholder {
+    color: #1ef72c;
+}
+
+.navbar {
+    margin: -12px;
+    
+}
+
+/*Pesonalização da página de noticias*/
+
+#new h1 {
+    margin-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-bottom: 50px;
+
+}
+
+
+#new .thumb img {
+    display: block;
+    width: 200px;
+    height: 200px;
+   }
+
+#new .thumb h2 {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: left;
+    max-width: 200px;
+}
+
+#new time {
+    font-size: 12px;
+    
+}
