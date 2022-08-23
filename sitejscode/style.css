@@ -8,6 +8,7 @@ header {
 	width: 100%;
 	height: 150px;
 	background-color: #282536;
+
 }
 
 header .header-black {
@@ -15,6 +16,7 @@ header .header-black {
     width: 100%;
 	height: 40px;
     background-color: #171424;
+
 
 }
 
@@ -59,7 +61,7 @@ header #logotipo {
     color: #fff;
 }
 .menu-late li a:hover{
-    color: #1ef72c;
+    color: #f22213;
 }
 
 /*BTN Buscas*/
@@ -71,11 +73,11 @@ header #logotipo {
 }
 
 .navbar .btn:hover {
-   color: #1ef72c;
+   color: #fff;
    background-color: #022154;
    border-radius: 9px;
    height: 40px;
-   border: #022154;
+   border: #21043b;
 }
 
 .navbar .form{
@@ -95,7 +97,7 @@ header #logotipo {
     color: #000;
 }
 #menu li.btn-search:hover ::-webkit-input-placeholder {
-    color: #1ef72c;
+    color: #f22213;
 }
 
 .navbar {
@@ -106,7 +108,7 @@ header #logotipo {
 /*Pesonalização da página de noticias*/
 
 #new h1 {
-    margin-top: 120px;
+    margin-top: 60px;
     text-align: center;
     text-transform: uppercase;
     font-size: 48px;
@@ -122,7 +124,7 @@ header #logotipo {
    }
 
 #new .thumb h2 {
-    margin-top: 10px;
+    margin-top: 60px;
     font-size: 15px;
     text-align: left;
     max-width: 200px;
@@ -141,25 +143,198 @@ header #logotipo {
     background-color: #282536;
     width: 100%;
 	height: 250px;
-}
-
-.form h3 {
-    text-align: center;
-    color: #fff;
+    border-top: 5px solid #f22213;
+    border-bottom: 5px solid #e86056;
 }
 
 
-footer a{
+
+/*Rodapé*/
+
+footer .container{
+    width: 100%;
+
+}
+
+footer a {
+    clear: both;
     text-decoration: none;
     color: white;
 }
 
-#rod-fo {
-    margin-top: 30px;
-    background-color: black;
+#rod-fo .rodape-claro {
+    margin: 0 auto;
+    margin-top: 0;
+    background-color: #282536;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#rod-fo .rodape-escuro {
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #171424;
+	height: 200px;
+    border-top: 5px solid #21043b;
+    
+}
+
+/*Footer escuro*/
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section {
+    margin-bottom: 0;
+    margin-top: 60px;
+    background: #282536;
+    position: relative;
+    text-transform: uppercase;
+
+    }
+
+.footer-cta {
+    border-bottom: 1px solid #373636;
+    }
+
+.single-cta i {
+    padding: 0 50px;
+    color: #fff;
+    font-size: 30px;
+    float: left;
+
+    }
+
+.cta-text {
+    padding-left: 12px;
+    display: inline-block;
+    }
+
+.cta-text h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 2px;
+    }
+
+.cta-text span {
+    color: #fff;
+    font-size: 15px;
+    }
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+    }
+
+.footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+    }
+
+.footer-logo {
+    margin-bottom: 0;
+    }
+
+.footer-logo img {
+    max-width: 200px;
+    border-radius: 30px;
+    height: 120px;
+    }
+
+.footer-text p {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+    }
+
+.footer-widget-heading h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    }
+
+.footer-widget ul li {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    }
+
+.footer-widget ul li a:hover{
+    color: #dc3545;
+    }
+
+.footer-widget ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    }
+
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+    }
+
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #ffff;
+    color: #fff;
+    }
+
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ffff;
+    padding: 15px 15PX;
+    top: 0;
+    }
+
+.subscribe-form button i {
+    color: #000;
+    background-color: #fff;
+    font-size: 22px;
+    border: none;
+    }
+
+.subscribe-form button:hover{
+    background-color: #022154;
+    color: #ffff;
+    }
+
+.subscribe-form button i:hover {
+    background-color: #022154;
+    color: #ffff;
+    }
+
+.rodape-real{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #171424;
     color: white;
     display: block;
     text-transform: uppercase;
     text-align: center;
-}
+
+    }
+
+.rodape-real:hover{
+    background-color: #fff;
+    color: #000;
+    }
+
+    /*poup-up*/
+
+
 

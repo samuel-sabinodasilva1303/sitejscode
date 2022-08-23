@@ -34,3 +34,17 @@ o padrão foi alterada as cores dos campos de pesquisa e busca, provenientes do 
 Na página de noticias utilize o col-md-3 do Boostrap, porém, tive que aplicar um display block para imagens ficarem lado a lado
 também foi utilizado o novo recurso time do html 5, foi definido para as imagens da thumb o  width: 200px; height: 200px;
 assim deixou padronizado.
+
+Dupliquei a página de noticias para haver mais conteudo, onde coloquei tudo dentro de um container para seguir o padrão de centralização
+que defini.
+
+
+**Newsletter**
+
+
+**Footer**
+No footer deixe uma mensagem simples na última div, na primeira utilizei o boder-top para deixar uma cor mais escura, também
+utilizei a div para centralizar os conteúdo e adicionar o formulario de navegação.
+
+foi utilizado um rodapé responsivo, com personalização de cada elemente do footer, no COPYRIGHT utilize uma instilização para validar
+algumas configurações onde ao passar o mouse ele altera o footer de cor, sei que não é uma boa prática de programação, mas criei para testes
