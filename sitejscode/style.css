@@ -25,22 +25,6 @@ header .header-black {
     font-size: 30px;
     color: #fff;
 }
-.header-black {
-    display: block;
-  }
-  
-  @media screen and (max-width: 800px) {
-    .header-black {
-      display: none;
-    }
-  }
-
-header #logotipo {
-    height: 120px;
-    border-radius: 40px;
-	position: absolute;
-	top: 20px;
-}
 
 /*Menu */
 
@@ -54,6 +38,14 @@ header #logotipo {
     font-family: 'static';
     font-size: 1.2em;
 
+}
+
+
+header #logotipo {
+    height: 120px;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
 }
 
 .menu-late li a {
@@ -118,7 +110,6 @@ header #logotipo {
 
 
 #new .thumb img {
-    display: block;
     width: 200px;
     height: 200px;
    }

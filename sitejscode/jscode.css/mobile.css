@@ -1,0 +1,48 @@
+/*Tamanho tablet*/
+@media only  screen and (max-width: 914px){
+    .header-black li {
+        display: none;
+    } 
+    .header-black h1 {
+        display: none;
+    }
+    
+}
+
+/*Tamanho celular*/
+
+@media only screen and (max-width: 913px) {
+
+    .header-black li, #menu {
+        display: none;
+    }
+
+    #logotipo  {
+      left: 20%;
+    }
+
+    #btn-bars, #btn-sear {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 6px;
+        background: none;
+        border: none;
+    }
+
+    #btn-bars {
+        left: 6px;
+    }
+
+    #btn-sear {
+        right: 6px;
+    }
+
+    #new h2 {
+        font-size: 5px;
+    }
+    .thumb {
+        
+    }
+
+  }
